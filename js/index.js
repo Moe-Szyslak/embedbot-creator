@@ -106,7 +106,7 @@ $(document).ready(function () {
         source += 'name="' + embed.author.name + '"';
       }
 
-      if(embed.author.url) {
+      if (embed.author.url) {
         source += ', ';
 
         if (switches.useVars) {
@@ -260,7 +260,9 @@ $(document).ready(function () {
   }
 
   function addField() {
-    embed.fields.push({ inline: true });
+    embed.fields.push({
+      inline: true
+    });
     fields += 1;
     generateInputFields(fields);
   }
