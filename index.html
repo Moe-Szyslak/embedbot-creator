@@ -26,12 +26,6 @@
           <div class="card-header">Embed Editor</div>
           <div class="card-block">
             <form id="form">
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input class="form-check-input" type="checkbox" id="useVars" value="">
-                  Use variables (will skip field checks and direcly add names without doublequotes)
-                </label>
-              </div>
               <div class="form-group">
                 <label>Basic settings</label>
                 <input class="form-control" id="title" type="text" placeholder="title" />
@@ -47,8 +41,8 @@
                 <input class="form-control" id="color" type="color" />
               </div>
               <div class="form-group">
-                <label>Thumbnail settings</label>
-                <input class="form-control" id="icon" type="text" placeholder="icon" />
+                <label>Image settings</label>
+                <input class="form-control" id="icon" type="text" placeholder="Image" />
               </div>
               <div class="form-group">
                 <label>Author settings</label>
@@ -66,7 +60,10 @@
               <div class="input-fields"></div>
               <div class="form-group">
                 <label>Footer settings</label>
-                <input class="form-control" id="footer" type="text" placeholder="footer text" />
+                <input class="form-control" id="footer_name" type="text" placeholder="footer text" />
+              </div>
+              <div class="form-group">
+                <input class="form-control" id="footer_url" type="text" placeholder="footer icon url" />
               </div>
             </form>
           </div>
@@ -90,9 +87,9 @@
     </div><br />
     <div class="col-md-10 offset-md-1">
       <div class="card">
-        <div class="card-header">Python code</div>
+        <div class="card-header">EmbedBot import code</div>
         <div class="card-block">
-          <pre><code class="python source"></code></pre>
+          <pre><code class="json source"></code></pre>
         </div>
       </div>
     </div>
