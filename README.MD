@@ -1,13 +1,10 @@
-![embed](http://i.imgur.com/GemcoBW.png)
 
-# discord-embed-sandbox
 
-> Web-based sandbox for Discord Embeds with code generation
+# EmbedBot web based creator
 
-[Click here to open](https://cog-creators.github.io/discord-embed-sandbox/)
+You're going want to take a look at [EmbedBot (btw)](https://github.com/JakeJMattson/EmbedBot) as this has no functionality outside of creating json which can be imported using this bot.
 
-This tool can help you get a grip on Discord Embeds (a topic some people are struggling with), it provides a simple ui to construct a message you want, as well as a realtime preview.
+[View the embed creator online](https://moe-szyslak.github.io/embedbot-creator/)
 
-You can also see the code needed to generate the same Embed inside your own cog in real time, so you can see how different fields and values affect the end result, which is pretty neat, if you ak me ;)
 
-Hope you like it!
+Based on a embed generator by cog-creators which can be found [here](https://github.com/Cog-Creators/discord-embed-sandbox)
